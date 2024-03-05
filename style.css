@@ -91,3 +91,11 @@ main{
     color: #495057;
     font-size: 18px;
 }
+
+.pie-de-pagina{
+ font-size: medium;
+ background: #D8DFE8;
+ font-family: iner;
+ text-align: right;
+
+}
