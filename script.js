@@ -55,3 +55,14 @@ function desencriptar(stringdesencriptada){
     }
     return stringdesencriptada
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const btnCopiar = document.querySelector(".btn-copiar");
+    const mensaje = document.querySelector(".mensaje");
+
+    btnCopiar.addEventListener('click', function () {
+        mensaje.select();
+        document.execCommand('copy');
+        alert('¡Texto copiado al portapapeles!');
+    });
+});
